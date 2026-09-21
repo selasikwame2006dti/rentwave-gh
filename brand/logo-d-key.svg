@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <defs>
+    <clipPath id="rwcD"><rect width="128" height="128" rx="30"/></clipPath>
+  </defs>
+
+  <!-- Concept D: THE KEY - house-shaped keyhole, wave unlock. "Unlock your home" -->
+  <g clip-path="url(#rwcD)">
+    <rect width="128" height="128" fill="#0b2239"/>
+
+    <!-- teal wave sweeping low -->
+    <path d="M-4,92 C 18,76 40,76 64,90 C 88,104 106,104 132,88 L 132,136 L -4,136 Z" fill="#0ea5b7" opacity="0.25"/>
+
+    <!-- house-shaped keyhole -->
+    <path d="M64,26 L88,46 L88,52 L82,52 L82,72 L46,72 L46,52 L40,52 L40,46 Z" fill="#ffffff"/>
+    <!-- keyhole slot -->
+    <circle cx="64" cy="52" r="6" fill="#0b2239"/>
+    <rect x="61.5" y="52" width="5" height="14" rx="2.5" fill="#0b2239"/>
+
+    <!-- gold key ring orbiting the house -->
+    <circle cx="64" cy="52" r="34" fill="none" stroke="#ffb703" stroke-width="5" stroke-linecap="round" stroke-dasharray="150 64" transform="rotate(-40 64 52)"/>
+    <!-- key teeth on the ring -->
+    <path d="M94,74 l8,6 M98,68 l8,6" stroke="#ffb703" stroke-width="5" stroke-linecap="round"/>
+  </g>
+</svg>

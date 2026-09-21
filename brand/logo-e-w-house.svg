@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <defs>
+    <clipPath id="rwcE"><rect width="128" height="128" rx="30"/></clipPath>
+  </defs>
+
+  <!-- Concept E: W-HOUSE MONOGRAM - the W's centre peak IS the roofline. Light/airy -->
+  <g clip-path="url(#rwcE)">
+    <rect width="128" height="128" fill="#ffffff"/>
+
+    <!-- W drawn as one bold stroke, navy -->
+    <path d="M28,42 L44,96 L64,58 L84,96 L100,42"
+          fill="none" stroke="#0b2239" stroke-width="12"
+          stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- centre peak capped by a teal roof chevron -->
+    <path d="M64,30 L84,48 L74,48 L64,39 L54,48 L44,48 Z" fill="#0ea5b7"/>
+
+    <!-- gold sun dot nested in the left valley -->
+    <circle cx="50" cy="62" r="6" fill="#ffb703"/>
+
+    <!-- wave underline -->
+    <path d="M-4,112 C 20,100 42,100 64,110 C 86,120 108,120 132,108"
+          fill="none" stroke="#0ea5b7" stroke-width="5" stroke-linecap="round" opacity="0.55"/>
+  </g>
+</svg>

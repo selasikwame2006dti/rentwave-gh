@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>RentWave GH — Brand Lab (Logo Concepts)</title>
+<style>
+:root{
+  --navy:#0b2239; --deep:#0e2f4e; --wave:#0ea5b7; --wave2:#2563eb;
+  --sand:#ffb703; --coral:#ff6b4a; --ink:#12283a; --mut:#5b7285;
+  --bg:#f4f7fa; --card:#fff; --line:#e3ebf1;
+  --grad:linear-gradient(135deg,var(--wave),var(--wave2));
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,sans-serif;background:#e9eef3;color:var(--ink);-webkit-font-smoothing:antialiased}
+.wrap{max-width:1100px;margin:0 auto;padding:48px 24px 90px}
+.eyebrow{display:inline-block;background:var(--grad);color:#fff;font-size:11px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;padding:6px 14px;border-radius:99px}
+h1{font-size:32px;color:var(--navy);letter-spacing:-.5px;margin:14px 0 6px}
+.sub{color:var(--mut);max-width:640px;line-height:1.55;font-size:15px}
+h2{font-size:19px;color:var(--navy);margin:44px 0 6px;letter-spacing:-.3px}
+.note{font-size:13px;color:var(--mut);margin-bottom:18px}
+
+/* concept cards */
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.ccard{background:#fff;border:1px solid var(--line);border-radius:20px;padding:22px;box-shadow:0 10px 26px rgba(11,34,57,.08)}
+.ccard .tag{font-size:10.5px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--wave2)}
+.ccard h3{font-size:17px;color:var(--navy);margin:3px 0 12px}
+.tiles{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.tile{border:1px solid var(--line);border-radius:16px;background:var(--bg);display:flex;align-items:center;justify-content:center;padding:18px;min-height:130px}
+.tile.dark{background:var(--navy);border-color:var(--navy)}
+.ccard p{font-size:12.5px;color:var(--mut);line-height:1.55;margin-top:12px}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+.chips span{background:#f2f6f9;border-radius:99px;padding:4px 10px;font-size:10.5px;font-weight:700;color:#33475a}
+
+/* marks sizing */
+.mark{width:96px;height:96px}
+.mark-lg{width:150px;height:150px}
+.mark-sm{width:34px;height:34px}
+
+/* app icons */
+.icons{display:flex;gap:26px;flex-wrap:wrap}
+.appicon{width:116px;height:116px;border-radius:28px;box-shadow:0 16px 34px rgba(11,34,57,.28);display:flex;align-items:center;justify-content:center}
+.a1{background:linear-gradient(135deg,#0ea5b7,#2563eb)}
+.a2{background:linear-gradient(135deg,#0b2239,#0e2f4e)}
+.a3{background:linear-gradient(135deg,#2563eb,#0ea5b7)}
+.appicon svg{width:66px;height:66px}
+.iconmeta{font-size:11.5px;color:var(--mut);font-weight:700;margin-top:8px;text-align:center}
+.icongroup{text-align:center}
+
+/* wordmark */
+.wmrow{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.wm{border:1px solid var(--line);border-radius:20px;padding:34px;display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:150px}
+.wm.dark{background:var(--navy);border-color:var(--navy)}
+.wordmark{display:flex;align-items:center;gap:10px}
+.wordmark .rw{font-size:40px;font-weight:800;letter-spacing:-1.2px;line-height:1}
+.wordmark .rw b{font-weight:800}
+.ghpill{background:var(--sand);color:#4a2a00;font-size:13px;font-weight:800;border-radius:8px;padding:3px 9px;letter-spacing:.04em}
+.wave-u{width:150px;height:12px;margin-top:8px}
+.tagline{font-size:12.5px;color:var(--mut);margin-top:10px;font-weight:600;letter-spacing:.06em}
+.wm.dark .tagline{color:#9fb3c8}
+
+/* palette */
+.pal{display:grid;grid-template-columns:repeat(7,1fr);gap:12px}
+.sw{border-radius:14px;overflow:hidden;border:1px solid var(--line);background:#fff;box-shadow:0 6px 16px rgba(11,34,57,.06)}
+.sw .c{height:64px}
+.sw .m{padding:8px 10px}
+.sw .n{font-size:11px;font-weight:800;color:var(--navy)}
+.sw .h{font-size:10px;color:var(--mut);font-family:monospace}
+
+/* favicon test */
+.favs{display:flex;gap:30px;align-items:flex-end;flex-wrap:wrap}
+.fav{text-align:center}
+.fav .sz{font-size:10.5px;color:var(--mut);font-weight:700;margin-top:6px}
+.foot{margin-top:50px;font-size:12px;color:var(--mut);border-top:1px solid var(--line);padding-top:16px;line-height:1.6}
+@media(max-width:860px){.grid3{grid-template-columns:1fr}.pal{grid-template-columns:repeat(4,1fr)}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <span class="eyebrow">🌊 RentWave GH · Brand Lab</span>
+  <h1>Logo Concepts — pick a direction 🎨</h1>
+  <p class="sub">Three hand-coded SVG marks. All share one idea: <b>the wave is the brand</b> — competitors (meQasa, Jiji, GPC) all use generic houses; nobody owns the wave. Each concept is tested on light + navy, and at favicon size.</p>
+
+  <!-- ═══ CONCEPTS ═══ -->
+  <h2>The three marks</h2>
+  <div class="grid3">
+
+    <!-- A -->
+    <div class="ccard">
+      <span class="tag">Concept A</span><h3>The Wave Roof</h3>
+      <div class="tiles">
+        <div class="tile">
+          <svg class="mark" viewBox="0 0 64 64" fill="none">
+            <defs><linearGradient id="gA" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#0ea5b7"/><stop offset="1" stop-color="#2563eb"/>
+            </linearGradient></defs>
+            <path d="M21 48V35" stroke="url(#gA)" stroke-width="4.5" stroke-linecap="round"/>
+            <path d="M43 48V35" stroke="url(#gA)" stroke-width="4.5" stroke-linecap="round"/>
+            <path d="M15 48h34" stroke="#0b2239" stroke-width="4.5" stroke-linecap="round"/>
+            <path d="M13 35 C18 22 26 20 32 27 C38 34 46 33 51 22" stroke="url(#gA)" stroke-width="4.5" stroke-linecap="round"/>
+            <circle cx="51.5" cy="13.5" r="3.5" fill="#ffb703"/>
+          </svg>
+        </div>
+        <div class="tile dark">
+          <svg class="mark" viewBox="0 0 64 64" fill="none">
+            <defs><linearGradient id="gA2" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#2dd4bf"/><stop offset="1" stop-color="#60a5fa"/>
+            </linearGradient></defs>
+            <path d="M21 48V35" stroke="url(#gA2)" stroke-width="4.5" stroke-linecap="round"/>
+            <path d="M43 48V35" stroke="url(#gA2)" stroke-width="4.5" stroke-linecap="round"/>
+            <path d="M15 48h34" stroke="#9fb3c8" stroke-width="4.5" stroke-linecap="round"/>
+            <path d="M13 35 C18 22 26 20 32 27 C38 34 46 33 51 22" stroke="url(#gA2)" stroke-width="4.5" stroke-linecap="round"/>
+            <circle cx="51.5" cy="13.5" r="3.5" fill="#ffb703"/>
+          </svg>
+        </div>
+      </div>
+      <p>A home whose <b>roofline is a living wave</b> — the whole brand story in one stroke. Open line-art keeps it friendly and modern; the gold sun adds Ghana warmth.</p>
+      <div class="chips"><span>🏠 Trust</span><span>🌊 Motion</span><span>☀️ Warmth</span></div>
+    </div>
+
+    <!-- B -->
+    <div class="ccard">
+      <span class="tag">Concept B</span><h3>Wave Ring Home</h3>
+      <div class="tiles">
+        <div class="tile">
+          <svg class="mark" viewBox="0 0 64 64" fill="none">
+            <defs><linearGradient id="gB" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#0ea5b7"/><stop offset="1" stop-color="#2563eb"/>
+            </linearGradient></defs>
+            <path d="M11 34 C11 21 20 11 33 11 C40 11 46 14 50 19" stroke="url(#gB)" stroke-width="5" stroke-linecap="round"/>
+            <path d="M53 30 C53 43 44 53 31 53 C24 53 18 50 14 45" stroke="url(#gB)" stroke-width="5" stroke-linecap="round" opacity=".45"/>
+            <path d="M22 37 L32 27 L42 37 V46 H22 Z" fill="url(#gB)"/>
+            <rect x="30" y="39" width="4" height="7" rx="1.6" fill="#fff"/>
+          </svg>
+        </div>
+        <div class="tile dark">
+          <svg class="mark" viewBox="0 0 64 64" fill="none">
+            <defs><linearGradient id="gB2" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#2dd4bf"/><stop offset="1" stop-color="#60a5fa"/>
+            </linearGradient></defs>
+            <path d="M11 34 C11 21 20 11 33 11 C40 11 46 14 50 19" stroke="url(#gB2)" stroke-width="5" stroke-linecap="round"/>
+            <path d="M53 30 C53 43 44 53 31 53 C24 53 18 50 14 45" stroke="url(#gB2)" stroke-width="5" stroke-linecap="round" opacity=".5"/>
+            <path d="M22 37 L32 27 L42 37 V46 H22 Z" fill="#fff"/>
+            <rect x="30" y="39" width="4" height="7" rx="1.6" fill="#0b2239"/>
+          </svg>
+        </div>
+      </div>
+      <p>A solid home <b>wrapped in a wave that never closes</b> — like water circling the globe. The open ring says "movement, flow, nationwide." Filled house = security. Strongest app-icon candidate.</p>
+      <div class="chips"><span>🔒 Secure</span><span>🌍 Nationwide</span><span>📱 Icon-first</span></div>
+    </div>
+
+    <!-- C -->
+    <div class="ccard">
+      <span class="tag">Concept C</span><h3>Pin &amp; Home</h3>
+      <div class="tiles">
+        <div class="tile">
+          <svg class="mark" viewBox="0 0 64 64" fill="none">
+            <defs><linearGradient id="gC" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#2563eb"/><stop offset="1" stop-color="#0ea5b7"/>
+            </linearGradient></defs>
+            <path d="M32 55 C32 55 13 37 13 26.5 A19 19 0 1 1 51 26.5 C51 37 32 55 32 55 Z" fill="url(#gC)"/>
+            <path d="M24.5 30 L32 23 L39.5 30 V37.5 H33.5 V32.5 H30.5 V37.5 H24.5 Z" fill="#fff"/>
+          </svg>
+        </div>
+        <div class="tile dark">
+          <svg class="mark" viewBox="0 0 64 64" fill="none">
+            <defs><linearGradient id="gC2" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#60a5fa"/><stop offset="1" stop-color="#2dd4bf"/>
+            </linearGradient></defs>
+            <path d="M32 55 C32 55 13 37 13 26.5 A19 19 0 1 1 51 26.5 C51 37 32 55 32 55 Z" fill="url(#gC2)"/>
+            <path d="M24.5 30 L32 23 L39.5 30 V37.5 H33.5 V32.5 H30.5 V37.5 H24.5 Z" fill="#0b2239"/>
+          </svg>
+        </div>
+      </div>
+      <p>A map pin with a <b>home carved out of the middle</b> — every listing is GPS-pinned, search is location-first. Most literal "find a home here" mark. The safest, most instant read.</p>
+      <div class="chips"><span>📍 GPS-first</span><span>🔍 Search</span><span>✅ Instant read</span></div>
+    </div>
+  </div>
+
+  <!-- ═══ APP ICONS ═══ -->
+  <h2>App icons (Android / iOS home screen)</h2>
+  <p class="note">Same three marks, dropped onto squircle tiles — how they'll actually look on a phone.</p>
+  <div class="icons">
+    <div class="icongroup">
+      <div class="appicon a1">
+        <svg viewBox="0 0 64 64" fill="none">
+          <path d="M21 48V35" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+          <path d="M43 48V35" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+          <path d="M15 48h34" stroke="#fff" stroke-width="5" stroke-linecap="round" opacity=".85"/>
+          <path d="M13 35 C18 22 26 20 32 27 C38 34 46 33 51 22" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+          <circle cx="51.5" cy="13.5" r="3.8" fill="#ffb703"/>
+        </svg>
+      </div>
+      <div class="iconmeta">A · Wave Roof</div>
+    </div>
+    <div class="icongroup">
+      <div class="appicon a2">
+        <svg viewBox="0 0 64 64" fill="none">
+          <path d="M11 34 C11 21 20 11 33 11 C40 11 46 14 50 19" stroke="#2dd4bf" stroke-width="5.5" stroke-linecap="round"/>
+          <path d="M53 30 C53 43 44 53 31 53 C24 53 18 50 14 45" stroke="#60a5fa" stroke-width="5.5" stroke-linecap="round" opacity=".6"/>
+          <path d="M22 37 L32 27 L42 37 V46 H22 Z" fill="#fff"/>
+          <rect x="30" y="39" width="4" height="7" rx="1.6" fill="#0b2239"/>
+        </svg>
+      </div>
+      <div class="iconmeta">B · Wave Ring</div>
+    </div>
+    <div class="icongroup">
+      <div class="appicon a3">
+        <svg viewBox="0 0 64 64" fill="none">
+          <path d="M32 55 C32 55 13 37 13 26.5 A19 19 0 1 1 51 26.5 C51 37 32 55 32 55 Z" fill="#fff"/>
+          <path d="M24.5 30 L32 23 L39.5 30 V37.5 H33.5 V32.5 H30.5 V37.5 H24.5 Z" fill="#0e2f4e"/>
+        </svg>
+      </div>
+      <div class="iconmeta">C · Pin &amp; Home</div>
+    </div>
+  </div>
+
+  <!-- ═══ WORDMARK ═══ -->
+  <h2>Wordmark lockup</h2>
+  <p class="note">"Rent" navy + "Wave" gradient-teal, gold GH badge, wave underline. Shown on light and navy.</p>
+  <div class="wmrow">
+    <div class="wm">
+      <div class="wordmark">
+        <span class="rw" style="color:#0b2239">Rent<b style="color:#0ea5b7">Wave</b></span>
+        <span class="ghpill">GH</span>
+      </div>
+      <svg class="wave-u" viewBox="0 0 150 12" fill="none">
+        <path d="M3 7 C16 -1 26 11 40 5.5 C54 0 64 9.5 78 4.5 C92 -0.5 102 9 116 4 C128 0 138 3 147 5.5" stroke="#0ea5b7" stroke-width="3" stroke-linecap="round"/>
+      </svg>
+      <div class="tagline">FIND YOUR HOME. SKIP THE STRESS.</div>
+    </div>
+    <div class="wm dark">
+      <div class="wordmark">
+        <span class="rw" style="color:#fff">Rent<b style="color:#2dd4bf">Wave</b></span>
+        <span class="ghpill">GH</span>
+      </div>
+      <svg class="wave-u" viewBox="0 0 150 12" fill="none">
+        <path d="M3 7 C16 -1 26 11 40 5.5 C54 0 64 9.5 78 4.5 C92 -0.5 102 9 116 4 C128 0 138 3 147 5.5" stroke="#2dd4bf" stroke-width="3" stroke-linecap="round"/>
+      </svg>
+      <div class="tagline">FIND YOUR HOME. SKIP THE STRESS.</div>
+    </div>
+  </div>
+
+  <!-- ═══ SMALL-SIZE TEST ═══ -->
+  <h2>Favicon / small-size test</h2>
+  <p class="note">If it dies at 32px, it dies in a browser tab. All three hold up — B is the strongest at tiny sizes.</p>
+  <div class="favs">
+    <div class="fav"><svg class="mark-sm" viewBox="0 0 64 64" fill="none"><path d="M21 48V35" stroke="#0ea5b7" stroke-width="5.5" stroke-linecap="round"/><path d="M43 48V35" stroke="#0ea5b7" stroke-width="5.5" stroke-linecap="round"/><path d="M13 35 C18 22 26 20 32 27 C38 34 46 33 51 22" stroke="#2563eb" stroke-width="5.5" stroke-linecap="round"/><circle cx="51.5" cy="13.5" r="4" fill="#ffb703"/></svg><div class="sz">A · 34px</div></div>
+    <div class="fav"><svg class="mark-sm" viewBox="0 0 64 64" fill="none"><path d="M11 34 C11 21 20 11 33 11 C40 11 46 14 50 19" stroke="#0ea5b7" stroke-width="6" stroke-linecap="round"/><path d="M22 37 L32 27 L42 37 V46 H22 Z" fill="#2563eb"/><rect x="30" y="39" width="4" height="7" rx="1.6" fill="#fff"/></svg><div class="sz">B · 34px</div></div>
+    <div class="fav"><svg class="mark-sm" viewBox="0 0 64 64" fill="none"><path d="M32 55 C32 55 13 37 13 26.5 A19 19 0 1 1 51 26.5 C51 37 32 55 32 55 Z" fill="#2563eb"/><path d="M24.5 30 L32 23 L39.5 30 V37.5 H24.5 Z" fill="#fff"/></svg><div class="sz">C · 34px</div></div>
+    <div class="fav"><svg style="width:22px;height:22px" viewBox="0 0 64 64" fill="none"><path d="M11 34 C11 21 20 11 33 11 C40 11 46 14 50 19" stroke="#0ea5b7" stroke-width="7" stroke-linecap="round"/><path d="M22 37 L32 27 L42 37 V46 H22 Z" fill="#2563eb"/></svg><div class="sz">B · 22px</div></div>
+  </div>
+
+  <!-- ═══ PALETTE ═══ -->
+  <h2>Brand palette</h2>
+  <p class="note">Pulled straight from the mockups — the logo lives in the same world as the product.</p>
+  <div class="pal">
+    <div class="sw"><div class="c" style="background:#0b2239"></div><div class="m"><div class="n">Deep Navy</div><div class="h">#0B2239</div></div></div>
+    <div class="sw"><div class="c" style="background:#0e2f4e"></div><div class="m"><div class="n">Navy 700</div><div class="h">#0E2F4E</div></div></div>
+    <div class="sw"><div class="c" style="background:#0ea5b7"></div><div class="m"><div class="n">Wave Teal</div><div class="h">#0EA5B7</div></div></div>
+    <div class="sw"><div class="c" style="background:#2563eb"></div><div class="m"><div class="n">Ocean Blue</div><div class="h">#2563EB</div></div></div>
+    <div class="sw"><div class="c" style="background:#ffb703"></div><div class="m"><div class="n">Ghana Gold</div><div class="h">#FFB703</div></div></div>
+    <div class="sw"><div class="c" style="background:#ff6b4a"></div><div class="m"><div class="n">Coral (alerts)</div><div class="h">#FF6B4A</div></div></div>
+    <div class="sw"><div class="c" style="background:#f4f7fa;border-bottom:1px solid #e3ebf1"></div><div class="m"><div class="n">Mist BG</div><div class="h">#F4F7FA</div></div></div>
+  </div>
+
+  <div class="foot">
+    <b>RentWave GH · Brand Lab v0.1</b> — marks are pure hand-coded SVG (no AI image tools, no stock): infinitely scalable, one-file export, ready for Play Store / favicon / splash screens.<br>
+    My recommendation: <b>Concept B</b> for the app icon (boldest at small sizes) with <b>Concept A</b> as the marketing/logo mark — they share the same DNA, so both can live in one system. Your call boss 🌊
+  </div>
+
+</div>
+</body>
+</html>

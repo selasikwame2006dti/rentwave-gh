@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>RentWave GH — Brand / Logo</title>
+<link rel="stylesheet" href="../mockups/rentwave.css">
+<style>
+  .brand-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px;max-width:1080px;margin:30px auto 10px;padding:0 24px}
+  .logo-card{background:#fff;border:1px solid var(--line);border-radius:20px;box-shadow:var(--shadow);padding:28px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;min-height:180px}
+  .logo-card .nm{font-size:11px;font-weight:800;color:var(--mut);text-transform:uppercase;letter-spacing:.08em}
+  .logo-card.dark{background:linear-gradient(135deg,#0b2239,#0e2f4e);border:none}
+  .logo-card.dark .nm{color:#9fb3c8}
+  .logo-card.sand{background:var(--gradw);border:none}
+  .logo-card.sand .nm{color:#7c4a00}
+  .sizes{display:flex;align-items:flex-end;gap:26px}
+  .sizes figure{text-align:center}
+  .sizes figcaption{font-size:10px;color:var(--mut);font-weight:700;margin-top:6px}
+  .palette{display:flex;gap:12px;flex-wrap:wrap;justify-content:center;max-width:900px;margin:8px auto 0;padding:0 24px}
+  .sw{width:132px;border-radius:14px;overflow:hidden;border:1px solid var(--line);background:#fff;box-shadow:var(--shadow)}
+  .sw .c{height:52px}
+  .sw .t{padding:8px 10px;font-size:10.5px;font-weight:700;color:#33475a}
+  .sw .t small{display:block;color:var(--mut);font-weight:600;font-size:9.5px;margin-top:1px}
+  .note{max-width:720px;margin:26px auto 70px;padding:0 24px;font-size:12px;color:var(--mut);line-height:1.6;text-align:center}
+</style>
+</head>
+<body>
+
+<header class="page-head">
+  <span class="eyebrow">🌊 RentWave GH · Brand</span>
+  <h1>The mark: a house wearing a wave 🏠🌊</h1>
+  <p>Concept: navy walls = shelter &amp; trust. A teal-gradient wave forms the roofline = RentWave. A gold ground-wave = Ghana &amp; the flow of rent. Pure SVG — scales from favicon to billboard.</p>
+  <div class="legend"><span>Navy #0b2239</span><span>Wave #0ea5b7 → #2563eb</span><span>Gold #ffb703</span></div>
+</header>
+
+<div class="brand-grid">
+
+  <div class="logo-card">
+    <img src="logo-horizontal.svg" width="280" alt="RentWave GH horizontal lockup">
+    <div class="nm">Primary lockup — light</div>
+  </div>
+
+  <div class="logo-card dark">
+    <img src="logo-mark.svg" width="96" style="filter:brightness(0) invert(1)" alt="monochrome mark">
+    <div style="font-family:'Segoe UI';font-weight:800;font-size:30px;letter-spacing:-.5px;color:#fff">Rent<span style="background:linear-gradient(90deg,#22d3ee,#60a5fa);-webkit-background-clip:text;background-clip:text;color:transparent">Wave</span></div>
+    <div class="nm">On navy (dark mode)</div>
+  </div>
+
+  <div class="logo-card">
+    <img src="logo-mark.svg" width="110" alt="RentWave mark">
+    <div class="nm">Mark alone</div>
+  </div>
+
+  <div class="logo-card sand">
+    <img src="app-icon.svg" width="92" style="border-radius:22px;box-shadow:0 10px 24px rgba(0,0,0,.25)" alt="app icon">
+    <div class="nm">App icon on gold</div>
+  </div>
+
+</div>
+
+<div class="brand-grid" style="grid-template-columns:1fr;max-width:760px">
+  <div class="logo-card">
+    <div class="sizes">
+      <figure><img src="app-icon.svg" width="96" style="border-radius:22px" alt=""></figure>
+      <figure><img src="app-icon.svg" width="64" style="border-radius:15px" alt=""></figure>
+      <figure><img src="app-icon.svg" width="48" style="border-radius:11px" alt=""></figure>
+      <figure><img src="app-icon.svg" width="32" style="border-radius:8px" alt=""></figure>
+      <figure><img src="logo-mark.svg" width="32" alt=""></figure>
+      <figure><img src="logo-mark.svg" width="16" alt=""></figure>
+    </div>
+    <div class="nm">App icon · 96 / 64 / 48 / 32 — mark · 32 / 16 (favicon test)</div>
+  </div>
+</div>
+
+<div class="palette">
+  <div class="sw"><div class="c" style="background:#0b2239"></div><div class="t">Navy<small>#0b2239 · trust</small></div></div>
+  <div class="sw"><div class="c" style="background:linear-gradient(135deg,#0ea5b7,#2563eb)"></div><div class="t">Wave gradient<small>#0ea5b7 → #2563eb</small></div></div>
+  <div class="sw"><div class="c" style="background:#ffb703"></div><div class="t">Gold<small>#ffb703 · Ghana energy</small></div></div>
+  <div class="sw"><div class="c" style="background:#16a34a"></div><div class="t">Verified green<small>#16a34a</small></div></div>
+  <div class="sw"><div class="c" style="background:#f4f7fa;border-bottom:1px solid var(--line)"></div><div class="t">Cloud<small>#f4f7fa · background</small></div></div>
+</div>
+
+<p class="note">Files: <b>brand/logo-mark.svg</b> · <b>brand/logo-horizontal.svg</b> · <b>brand/app-icon.svg</b> — real font TBD (Plus Jakarta Sans / Manrope recommended); Segoe used here as stand-in. Pick a direction, boss, and I'll refine it. 🌊</p>
+
+</body>
+</html>

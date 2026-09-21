@@ -1,0 +1,8 @@
+body{font-family:'Segoe UI',sans-serif;background:#e9eef3;color:#12283a;margin:0;padding:40px 20px}
+h1{color:#0b2239;text-align:center;margin:0 0 6px}
+.sub{text-align:center;color:#5b7285;max-width:640px;margin:0 auto 34px;line-height:1.5}
+.card{background:#fff;border-radius:18px;box-shadow:0 10px 26px rgba(11,34,57,.1);max-width:980px;margin:0 auto 26px;padding:26px}
+.card h2{margin:0 0 4px;color:#0b2239;font-size:19px}
+.card p{margin:0 0 18px;color:#5b7285;font-size:.9rem;line-height:1.5}
+.row{display:flex;gap:34px;align-items:center;flex-wrap:wrap}
+.big img{width:min(38vw,340px);height:auto;border-radius:.7rem;display:block;box-shadow:.7rem .7rem rgba(11,34,57,.2)}

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>RentWave GH — Admin Console Mockup</title>
+<link rel="stylesheet" href="rentwave.css">
+</head>
+<body>
+
+<header class="page-head">
+  <span class="eyebrow">🌊 RentWave GH · Admin Console</span>
+  <h1>Admin — the control tower 🖥️</h1>
+  <p>The internal dashboard: watch the whole country's rental activity, verify landlords and listings before they go live, keep the money ledger clean, and settle disputes fairly.</p>
+  <div class="legend">
+    <span>🌍 All 16 regions, day one</span>
+    <span>🪪 Nothing goes live unverified</span>
+    <span>💰 Ledger = Paystack-truth</span>
+    <span>⚖️ Dispute resolution built-in</span>
+  </div>
+</header>
+
+<div class="awrap">
+  <!-- SIDEBAR -->
+  <aside class="side">
+    <span class="brand"><img src="logo-b-wave-w.svg" alt="" style="width:28px;height:28px;border-radius:8px;vertical-align:-8px;margin-right:8px">Rent<b>Wave</b> Admin</span>
+    <a class="active">📊 Overview</a>
+    <a>🏠 Listings</a>
+    <a>🪪 Verifications</a>
+    <a>👥 Users</a>
+    <a>💰 Finance &amp; Ledger</a>
+    <a>⚖️ Disputes</a>
+    <a>⭐ Subscriptions</a>
+    <a>📣 Growth</a>
+    <a>⚙️ Settings</a>
+    <div style="margin-top:26px;background:rgba(255,255,255,.06);border-radius:12px;padding:12px">
+      <div style="color:#9fb3c8;font-size:10px;font-weight:800;text-transform:uppercase;letter-spacing:.06em">System status</div>
+      <div style="color:#4ade80;font-size:11.5px;font-weight:700;margin-top:6px">● Paystack — live</div>
+      <div style="color:#4ade80;font-size:11.5px;font-weight:700">● Payouts — healthy</div>
+      <div style="color:#fbbf24;font-size:11.5px;font-weight:700">● 4 listings awaiting review</div>
+    </div>
+  </aside>
+
+  <!-- MAIN -->
+  <main class="main">
+    <div class="topnav">
+      <h2>Overview — Tuesday, 9 Sep 2026</h2>
+      <div class="who"><span>🔔 7</span> <div class="avatar">AD</div> <span>Admin · Selasi</span></div>
+    </div>
+
+    <!-- KPI ROW -->
+    <div class="grid4">
+      <div class="statcard"><div class="l">GMV this month</div><div class="v">GH₵ 486,200</div><div class="delta up">▲ 12.4% vs Aug</div></div>
+      <div class="statcard"><div class="l">Active listings</div><div class="v">1,284</div><div class="delta up">▲ 96 this week</div></div>
+      <div class="statcard"><div class="l">Platform revenue</div><div class="v">GH₵ 12,155</div><div class="delta up">fees + subs · ▲ 9.1%</div></div>
+      <div class="statcard"><div class="l">Open disputes</div><div class="v">3</div><div class="delta dn">▼ 2 resolved today</div></div>
+    </div>
+
+    <!-- CHART + REGIONS -->
+    <div class="two">
+      <div class="panel">
+        <h3>Rent volume via Paystack <span class="lnk">Last 6 months →</span></h3>
+        <div class="chart">
+          <div class="bar" style="height:38%"><b>218k</b><span>Apr</span></div>
+          <div class="bar" style="height:46%"><b>265k</b><span>May</span></div>
+          <div class="bar" style="height:52%"><b>301k</b><span>Jun</span></div>
+          <div class="bar" style="height:61%"><b>352k</b><span>Jul</span></div>
+          <div class="bar" style="height:74%"><b>432k</b><span>Aug</span></div>
+          <div class="bar" style="height:88%;background:linear-gradient(135deg,#ffb703,#ff8a3d)"><b>486k</b><span>Sep</span></div>
+        </div>
+        <div style="height:22px"></div>
+      </div>
+      <div class="panel">
+        <h3>Regional coverage 🌍</h3>
+        <div class="regiongrid">
+          <div class="r">Greater Accra <b>612</b></div>
+          <div class="r">Ashanti <b>298</b></div>
+          <div class="r">Western <b>104</b></div>
+          <div class="r">Central <b>78</b></div>
+          <div class="r">Eastern <b>66</b></div>
+          <div class="r">Volta <b>41</b></div>
+          <div class="r">Northern <b>37</b></div>
+          <div class="r">Other 9 <b>48</b></div>
+        </div>
+        <div class="feerow" style="margin-top:12px"><span>🎯 Target: listings in all 16 regions</span><b>14 / 16 ✓</b></div>
+      </div>
+    </div>
+
+    <!-- MODERATION QUEUE -->
+    <div class="panel">
+      <h3>🪪 Verification queue — nothing goes live unchecked <span class="lnk">View all 7 →</span></h3>
+      <table class="t">
+        <tr><th>Submitted</th><th>Type</th><th>Item</th><th>Region</th><th>Checks</th><th>Action</th></tr>
+        <tr>
+          <td>2h ago</td><td><span class="pill warn">New listing</span></td><td><b>2-Bed · East Legon</b> · GH₵1,500/mo</td><td>Greater Accra</td><td>6 photos ✓ · GPS ✓ · ID ✓ · 12mo ✓</td>
+          <td><div class="ract"><span class="btn ok">Approve</span><span class="btn ghost">Reject</span></div></td>
+        </tr>
+        <tr>
+          <td>3h ago</td><td><span class="pill warn">New landlord</span></td><td><b>Abena D.</b> · Ghana Card · 2 listings</td><td>Ashanti</td><td>ID ✓ · Phone ✓ · Selfie ✓</td>
+          <td><div class="ract"><span class="btn ok">Approve</span><span class="btn ghost">Reject</span></div></td>
+        </tr>
+        <tr>
+          <td>5h ago</td><td><span class="pill bad">Reported</span></td><td><b>Single room · Tema</b> · photos don't match GPS</td><td>Greater Accra</td><td>⚠ 3 renter reports</td>
+          <td><div class="ract"><span class="btn ghost">Investigate</span><span class="btn" style="background:var(--bad)">Delist</span></div></td>
+        </tr>
+        <tr>
+          <td>1d ago</td><td><span class="pill" style="background:#eff6ff;color:#1d4ed8">Payout</span></td><td><b>GH₵12,000</b> → Mr. Mensah · MTN MoMo</td><td>—</td><td>Balance ✓ · Paystack ✓</td>
+          <td><div class="ract"><span class="btn ok">Release</span></div></td>
+        </tr>
+      </table>
+    </div>
+
+    <!-- LEDGER + DISPUTES -->
+    <div class="two">
+      <div class="panel">
+        <h3>💰 Today's ledger <span class="lnk">Full statement →</span></h3>
+        <table class="t">
+          <tr><th>Time</th><th>Event</th><th>Ref</th><th>Amount</th><th>Fee (2.5%)</th></tr>
+          <tr><td>08:14</td><td>Rent · Kwame A. → Mr. Mensah (MoMo)</td><td>PSTK-8812</td><td><b style="color:var(--ok)">+GH₵1,500.00</b></td><td>GH₵37.50</td></tr>
+          <tr><td>09:02</td><td>Advance (12mo) · Yaw N. (MoMo)</td><td>PSTK-8817</td><td><b style="color:var(--ok)">+GH₵10,800.00</b></td><td>GH₵270.00</td></tr>
+          <tr><td>09:30</td><td>Pro subscription · 4 landlords</td><td>SUB-SEP</td><td><b style="color:var(--ok)">+GH₵200.00</b></td><td>—</td></tr>
+          <tr><td>10:11</td><td>Payout released → Abena D. (bank)</td><td>PO-2210</td><td><b style="color:var(--bad)">−GH₵4,200.00</b></td><td>—</td></tr>
+          <tr><td>11:45</td><td>Refund · listing delisted pre-tour</td><td>RFD-0091</td><td><b style="color:var(--bad)">−GH₵900.00</b></td><td>—</td></tr>
+        </table>
+      </div>
+      <div class="panel">
+        <h3>⚖️ Disputes <span class="lnk">All 3 →</span></h3>
+        <div class="card" style="margin:0 0 10px;border-left:4px solid var(--sand)">
+          <b style="font-size:12.5px">Kwame A. vs Mr. Mensah</b>
+          <div class="sub" style="margin:3px 0 8px">Landlord rescheduled tour twice · refund of GH₵0 requested</div>
+          <div class="ract"><span class="btn sm">Mediate</span><span class="btn sm ghost">Chat log</span></div>
+        </div>
+        <div class="card" style="margin:0 0 10px;border-left:4px solid var(--bad)">
+          <b style="font-size:12.5px">Akosua O. vs Agency X</b>
+          <div class="sub" style="margin:3px 0 8px">Advance paid, keys not released · GH₵10,800 frozen</div>
+          <div class="ract"><span class="btn sm" style="background:var(--bad)">Escalate</span><span class="btn sm ghost">Evidence</span></div>
+        </div>
+        <div class="card" style="margin:0;border-left:4px solid var(--ok)">
+          <b style="font-size:12.5px">Yaw N. vs Madina host</b>
+          <div class="sub" style="margin:3px 0 8px">Resolved yesterday · refund processed ✓</div>
+          <span class="pill ok">Closed</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- SUBSCRIPTIONS SNAPSHOT -->
+    <div class="panel">
+      <h3>⭐ Subscriptions snapshot</h3>
+      <div class="grid4" style="margin-bottom:0">
+        <div class="statcard"><div class="l">Starter (free)</div><div class="v">902</div><div class="delta up">convert 8% → Pro</div></div>
+        <div class="statcard"><div class="l">Pro · GH₵50/mo</div><div class="v">331</div><div class="delta up">▲ 24 this month</div></div>
+        <div class="statcard"><div class="l">Agency · GH₵150/mo</div><div class="v">47</div><div class="delta up">▲ 6 this month</div></div>
+        <div class="statcard"><div class="l">MRR</div><div class="v">GH₵ 23,650</div><div class="delta up">recurring · stable</div></div>
+      </div>
+    </div>
+
+  </main>
+</div>
+
+</body>
+</html>

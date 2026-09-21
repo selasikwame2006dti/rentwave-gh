@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-label="RentWave GH mark — navy mono">
+  <circle cx="176" cy="52" r="11" fill="none" stroke="#0b2239" stroke-width="7"/>
+  <g fill="none" stroke="#0b2239" stroke-width="15" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M50 150 L120 82 L190 150"/>
+    <path d="M66 137 V186"/>
+    <path d="M174 137 V186"/>
+  </g>
+  <path d="M34 190 C 62 168, 88 212, 118 190 S 168 168, 208 190"
+        fill="none" stroke="#0b2239" stroke-width="15" stroke-linecap="round" opacity="0.95"/>
+  <path d="M58 212 C 84 196, 106 226, 132 212 S 176 198, 196 212"
+        fill="none" stroke="#0b2239" stroke-width="11" stroke-linecap="round" opacity="0.3"/>
+</svg>

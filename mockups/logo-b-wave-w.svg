@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <defs>
+    <clipPath id="rwcB"><rect width="128" height="128" rx="30"/></clipPath>
+  </defs>
+
+  <!-- Concept B: THE WAVE-W - a W drawn as ocean swells under a roofline -->
+  <g clip-path="url(#rwcB)">
+    <rect width="128" height="128" fill="#ffffff"/>
+
+    <!-- roofline hint -->
+    <path d="M64,16 L94,40 L94,47 L64,31 L34,47 L34,40 Z" fill="#0b2239"/>
+
+    <!-- W formed by two crossing swells (stroked) -->
+    <path d="M30,56 C 38,96 46,102 55,78 C 60,65 68,65 73,78 C 82,102 90,96 98,56" fill="none" stroke="#0ea5b7" stroke-width="11" stroke-linecap="round"/>
+
+    <!-- second swell echo -->
+    <path d="M-4,112 C 16,98 36,98 56,112 C 76,126 98,126 132,112 L 132,136 L -4,136 Z" fill="#eaf7f9"/>
+
+    <!-- gold accent dot (the sun over the wave) -->
+    <circle cx="97" cy="55" r="7" fill="#ffb703"/>
+  </g>
+</svg>

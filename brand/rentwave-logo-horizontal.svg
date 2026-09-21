@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 170" role="img" aria-label="RentWave GH horizontal logo">
+  <defs>
+    <linearGradient id="hwWave" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0ea5b7"/>
+      <stop offset="1" stop-color="#2563eb"/>
+    </linearGradient>
+    <linearGradient id="hwGold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffb703"/>
+      <stop offset="1" stop-color="#ff8a3d"/>
+    </linearGradient>
+  </defs>
+
+  <!-- mark -->
+  <g transform="translate(6,8) scale(0.64)">
+    <path d="M58 212 C 84 196, 106 226, 132 212 S 176 198, 196 212"
+          fill="none" stroke="#0ea5b7" stroke-width="11" stroke-linecap="round" opacity="0.35"/>
+    <g fill="none" stroke="#0b2239" stroke-width="15" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M50 150 L120 82 L190 150"/>
+      <path d="M66 137 V186"/>
+      <path d="M174 137 V186"/>
+    </g>
+    <path d="M34 190 C 62 168, 88 212, 118 190 S 168 168, 208 190"
+          fill="none" stroke="url(#hwWave)" stroke-width="15" stroke-linecap="round"/>
+    <circle cx="176" cy="52" r="11" fill="url(#hwGold)"/>
+  </g>
+
+  <!-- wordmark -->
+  <text x="176" y="102" font-family="Segoe UI, Arial, sans-serif" font-size="66" font-weight="800" letter-spacing="-1">
+    <tspan fill="#0b2239">Rent</tspan><tspan fill="url(#hwWave)">Wave</tspan>
+  </text>
+
+  <!-- GH pill -->
+  <rect x="478" y="56" width="70" height="38" rx="19" fill="url(#hwGold)"/>
+  <text x="513" y="82" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="800" fill="#4a2a00">GH</text>
+
+  <!-- tagline -->
+  <text x="178" y="140" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="600" fill="#5b7285">find your home · skip the stress</text>
+</svg>
